@@ -1,6 +1,8 @@
 # Cookiecutter Template for a Python Template Repo
 
 This repo contains a [Cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.0/) template for a Python Template Repo.
+In [this](https://chris-clem.hashnode.dev/create-a-reasonable-python-template-project-with-poetry-pre-commit-and-github-actions-ck8jb6t9i00jlphs1askkcori) blog post, I describe how to create it.
+
 Simply follow these steps to set up your project in minutes:
 1. Install Cookiecutter
  ```bash
