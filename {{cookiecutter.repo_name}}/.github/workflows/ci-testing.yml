@@ -21,6 +21,6 @@ jobs:
        pre-commit run --all-files
    - name: Test with pytest
      run: |
-       pip install poetry pytest
+       pip install poetry
        poetry install
-       pytest
+       poetry run pytest
