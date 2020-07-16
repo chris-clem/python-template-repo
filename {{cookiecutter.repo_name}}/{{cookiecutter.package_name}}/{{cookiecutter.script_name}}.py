@@ -1,12 +1,9 @@
-import logging
 from pprint import pformat
 from time import sleep
 
 import click
+from loguru import logger
 from tqdm import tqdm
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 
 @click.command()

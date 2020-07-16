@@ -11,8 +11,8 @@ TODO: addd GitHub Actions Badge
 To create a clean Python environment use pyenv, which is a tool to manage different Python versions. If you do not have it on your system already, follow [this](https://realpython.com/intro-to-pyenv/) great guide by Real Python. Then simply run the following commands:
 
 ```bash
-pyenv install 3.7.7
-pyenv global 3.7.7
+pyenv install 3.8.2
+pyenv global 3.8.2
 ```
 
 2. Install dependencies with [Poetry](https://python-poetry.org)
