@@ -16,7 +16,7 @@ git clone https://github.com/chris-clem/python-template-repo.git
 
 3. Run Cookiecutter to create a new project from the template
  ```bash
-cookiecutter python template-repo
+cookiecutter python-template-repo
 ```
 You will be asked for how you want to name the repo, the package, and the script.
 
