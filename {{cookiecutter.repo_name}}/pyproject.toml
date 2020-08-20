@@ -8,6 +8,7 @@ authors = ["Christoph Clement <christoph.clement@tum.de>"]
 python = "^3.8"
 click = "^7.1.1"
 tqdm = "^4.45.0"
+loguru = "^0.5.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
