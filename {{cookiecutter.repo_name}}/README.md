@@ -8,7 +8,10 @@ TODO: addd GitHub Actions Badge
 
 1. Activate the Python version you want to use with [pyenv](https://github.com/pyenv/pyenv)
 
-To create a clean Python environment use pyenv, which is a tool to manage different Python versions. If you do not have it on your system already, follow [this](https://realpython.com/intro-to-pyenv/) great guide by Real Python. Then simply run the following commands:
+To create a clean Python environment use pyenv, which is a tool to manage
+different Python versions. If you do not have it on your system already, follow
+[this](https://realpython.com/intro-to-pyenv/) great guide by Real Python. Then
+simply run the following commands:
 
 ```bash
 pyenv install 3.8.2
@@ -16,7 +19,10 @@ pyenv global 3.8.2
 ```
 
 2. Install dependencies with [Poetry](https://python-poetry.org)
-Install Poetry by following the install instructions for your OS on their [website](https://python-poetry.org/docs/#installation). Then run the following commands to install the dependecies:
+
+Install Poetry by following the install instructions for your OS on their
+[website](https://python-poetry.org/docs/#installation). Then run the following
+commands to install the dependecies:
 
 ```bash
 poetry install
