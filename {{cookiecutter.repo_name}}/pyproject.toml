@@ -2,7 +2,7 @@
 name = "{{cookiecutter.repo_name}}"
 version = "0.1.0"
 description = ""
-authors = ["Christoph Clement <christoph.clement@tum.de>"]
+authors = ["Christoph Clement <christoph.clement@artorg.unibe.ch>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
