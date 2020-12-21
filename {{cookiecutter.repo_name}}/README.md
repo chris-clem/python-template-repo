@@ -31,6 +31,7 @@ poetry install
 3. Install [pre-commit](https://pre-commit.com) hooks from `.pre-commit-config.yaml`
 
 ```bash
+git init
 poetry run pre-commit install
 ```
 
@@ -38,10 +39,4 @@ poetry run pre-commit install
 
 ```bash
 poetry run pytest
-```
-
-## Run {{cookiecutter.script_name}}
-
-```bash
-poetry run {{cookiecutter.script_name}}
 ```
