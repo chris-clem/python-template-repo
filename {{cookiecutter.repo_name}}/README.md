@@ -40,3 +40,9 @@ poetry run pre-commit install
 ```bash
 poetry run pytest
 ```
+
+## Run {{cookiecutter.script_name}}
+
+```bash
+poetry run python {{cookiecutter.package_name}}/{{cookiecutter.script_name}}.py 
+```
