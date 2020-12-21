@@ -14,8 +14,8 @@ different Python versions. If you do not have it on your system already, follow
 simply run the following commands:
 
 ```bash
-pyenv install 3.8.2
-pyenv global 3.8.2
+pyenv install 3.8.6
+pyenv global 3.8.6
 ```
 
 2. Install dependencies with [Poetry](https://python-poetry.org)
