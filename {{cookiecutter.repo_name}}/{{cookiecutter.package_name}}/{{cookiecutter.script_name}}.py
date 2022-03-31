@@ -1,10 +1,15 @@
 from time import sleep
 
+import fire
 from loguru import logger
 from tqdm import tqdm
 
 
-def main(len_loop: int = 10, sleep_secs: int = 1):
+def main():
+    fire.Fire({{cookiecutter.script_name}})
+
+
+def {{cookiecutter.script_name}}(len_loop: int = 10, sleep_secs: int = 1):
     logger.info(f"{len_loop=}, {sleep_secs=}")
 
     for _ in tqdm(range(len_loop)):
