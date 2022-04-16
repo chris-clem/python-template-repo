@@ -5,7 +5,7 @@ description = ""
 authors = ["Christoph Clement <christoph.clement@students.unibe.ch>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 fire = "^0.4.0"
 loguru = "^0.6.0"
 tqdm = "^4.62.3"
