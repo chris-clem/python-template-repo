@@ -1,5 +1,5 @@
-from {{cookiecutter.package_name}}.{{cookiecutter.script_name}} import main
+from {{cookiecutter.package_name}}.{{cookiecutter.script_name}} import {{cookiecutter.script_name}}
 
 
-def test_main():
-    main()
+def test_{{cookiecutter.script_name}}():
+    {{cookiecutter.script_name}}()

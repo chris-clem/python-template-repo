@@ -9,8 +9,8 @@ TODO: addd GitHub Actions Badge
 1. Set up Python 3.9 (e.g. with Miniconda)
 
 ```bash
-wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.11.0-Linux-x86_64.sh
-bash Miniconda3-py39_4.11.0-Linux-x86_64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh
+bash Miniconda3-py39_4.12.0-Linux-x86_64.sh
 ```
 
 2. Install dependencies with [Poetry](https://python-poetry.org)
@@ -39,5 +39,5 @@ poetry run pytest
 ## Run {{cookiecutter.script_name}}
 
 ```bash
-poetry run python {{cookiecutter.package_name}}/{{cookiecutter.script_name}}.py 
+poetry run {{cookiecutter.script_name}}
 ```
