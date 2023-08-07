@@ -5,6 +5,10 @@ from loguru import logger
 from tqdm import tqdm
 
 
+def main():
+    fire.Fire({{cookiecutter.script_name}})
+
+
 def {{cookiecutter.script_name}}(
     len_loop: int = 10,
     sleep_seconds: float = 0.1,
@@ -18,4 +22,4 @@ def {{cookiecutter.script_name}}(
 
 
 if __name__ == "__main__":
-    fire.Fire({{cookiecutter.script_name}})
+    main()
