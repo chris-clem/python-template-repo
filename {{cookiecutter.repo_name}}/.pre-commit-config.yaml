@@ -16,7 +16,6 @@ repos:
     rev: v3.9.0
     hooks:
     -   id: reorder-python-imports
-
 -   repo: https://github.com/psf/black
     rev: 22.10.0
     hooks:
