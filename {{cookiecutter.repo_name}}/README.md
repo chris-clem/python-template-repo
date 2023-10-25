@@ -6,11 +6,14 @@ TODO: addd GitHub Actions Badge
 
 ## Setup
 
-1. Set up Python 3.9 (e.g. with Miniconda)
+1. Set up Python (e.g. with Miniconda)
 
 ```bash
-wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh
-bash Miniconda3-py39_4.12.0-Linux-x86_64.sh
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+~/miniconda3/bin/conda init zsh
 ```
 
 2. Install dependencies with [Poetry](https://python-poetry.org)
