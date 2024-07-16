@@ -16,7 +16,7 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init zsh
 ```
 
-2. Install dependencies with [Poetry](https://python-poetry.org)
+1. Install dependencies with [Poetry](https://python-poetry.org)
 
 Install Poetry by following the install instructions for your OS on their
 [website](https://python-poetry.org/docs/#installation). Then run the following
@@ -26,14 +26,14 @@ commands to install the dependecies:
 poetry install
 ```
 
-3. Install [pre-commit](https://pre-commit.com) hooks from `.pre-commit-config.yaml`
+1. Install [pre-commit](https://pre-commit.com) hooks from `.pre-commit-config.yaml`
 
 ```bash
 git init
 poetry run pre-commit install
 ```
 
-4. Run the tests
+1. Run the tests
 
 ```bash
 poetry run pytest
